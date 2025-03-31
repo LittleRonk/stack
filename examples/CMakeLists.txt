@@ -1,0 +1,5 @@
+add_executable(stack_dyn_driver driver_dyn.c)
+target_link_libraries(stack_dyn_driver PRIVATE stack_dyn)
+
+add_executable(stack_pool_driver driver_pool.c)
+target_link_libraries(stack_pool_driver PRIVATE stack_pool)
