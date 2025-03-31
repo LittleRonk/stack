@@ -14,6 +14,8 @@ This project provides two efficient stack implementations in C:
 - Support for custom copy/destroy functions
 
 ## Project Structure
+
+```markdown
 stack-project/
 ├── include/ # Header files
 │ ├── stack_dyn.h # Dynamic stack interface
@@ -27,7 +29,7 @@ stack-project/
 ├── examples/ # Usage examples
 ├── CMakeLists.txt # Main build file
 └── README.md # This file
-
+```
 
 ## Requirements
 
