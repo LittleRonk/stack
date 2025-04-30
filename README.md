@@ -124,7 +124,7 @@ StackError stack_dyn_clear(StackDyn* stack);
 StackError stack_dyn_destroy(StackDyn* stack);
 ```
 
-# Memory Pool Stack API
+### Memory Pool Stack API
 
 ```c
 StackError stack_pool_init(StackPool** stack, size_t capacity, size_t block_size);
